@@ -22,7 +22,7 @@ class VerticalCardPager extends StatefulWidget {
       required this.images,
       this.onPageChanged,
       this.textStyle,
-      this.initialPage = 2,
+      this.initialPage = 0,
       this.onSelectedItem,
       this.align = ALIGN.CENTER})
       : assert(titles.length == images.length);
